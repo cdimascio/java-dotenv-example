@@ -19,3 +19,7 @@ mvn compile
 ```shell
 mvn exec:java -Dexec.mainClass="io.github.cdimascio.examples.dotenv.Main"
 ```
+
+## License
+
+MIT
