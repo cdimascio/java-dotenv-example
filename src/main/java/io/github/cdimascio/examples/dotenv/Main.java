@@ -11,7 +11,7 @@ public class Main {
 
         // Iterate over each environment entry
         // Note: entries in the host environment override entries in .env
-        for (DotenvEntry e : dotenv) {
+        for (DotenvEntry e : dotenv.entries()) {
             System.out.println(e);
         }
 
